@@ -1,0 +1,13 @@
+*{border:none;padding:0px;margin:0px;font-family:inherit;text-align:inherit; color:inherit;list-style-type:none;outline:none;font-style:normal;margin:auto;}
+body{font-family:"微软雅黑";text-align:center; color: rgb(89, 89, 89);}
+a{/*text-decoration:none;*//*前一个是下划线*/star:expression(this.onFocus=this.blur());/*forIe*/color:#0bf}
+a img{border:none;}/*去掉ie和360的默认蓝边*/
+.noneline-height{line-height:0px;}
+.rpcenter{width:100%;max-width:1200px;margin:0 auto;position:relative;}
+.ap{position:absolute;}
+.jianju{height:65px;width:100%;position:relative;}
+.main{width:1200px;margin:0auto;position:relative;overflow:visible;white-space:nowrap;/*强制不换行*/}
+.clear:after{content:"";display: block;clear:both;height:0px!important;width:0px!important;font-size:0px;line-height:0px;overflow:hidden;}/*放在float元素后解决"float元素导致父元素高度消失问题"*/
+.horizontal/*水平镜像*/{-moz-transform:scaleX(-1);-webkit-transform:scaleX(-1);-o-transform:scaleX(-1);transform:scaleX(-1);/*filter:fliph;IE(9不可用)*/-ms-transform:scaleX(-1);/*IE9*/}
+.textarea{ font-size:0.875rem; text-align:justify; text-indent:2em; line-height:1.625rem; margin-bottom:0.8rem;}
+i{font-style:normal;}
